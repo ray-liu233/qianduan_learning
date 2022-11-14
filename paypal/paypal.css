@@ -1,0 +1,199 @@
+ @import url(font.css);
+
+ * {
+    margin: 0;
+    padding: 0;
+ }
+ 
+ .headerdiv {
+   height: 80px;
+}
+
+ #paypalmainlogo {
+   margin-left: 306px;
+   margin-top: 20px;
+}
+
+ #headerul {
+  list-style: none;
+  font-family: "Noto Sans SC","PayPalSansBig-Regular",Helvetica Neue,Arial,sans-serif;
+  margin-left: 484px;
+  margin-top: -36px;
+  width: 912px;
+  height: 80px;
+  color: #515354;
+  font-size: 14px;
+  font-weight: 400;
+ }
+
+ #headerul li{
+    margin-top: 28px;
+    display: inline;
+    padding-right: 36px;
+ }
+
+ #headloadbutton {
+    color: #ffffff;
+    background-color: #142C81;
+    display:block;
+    border: 0;
+    font-family: "Noto Sans SC","PayPalSansBig-Regular",Helvetica Neue,Arial,sans-serif;
+    border-width:1px;
+    font-size: 14px;
+    font-weight: 500;
+    width: 104px;
+    height: 40px;
+    margin-left: 1382px;
+    margin-top: -86px;
+    border-radius:calc(40px / 2);
+ }
+
+ .mainsectionfirst {
+    background-image: url("./picture/mainbackground.jpg");
+    height: 560px;
+    color: #ffffff;
+    background-size: cover;
+
+}
+
+ .maintitlefirst{
+  padding-top: 142px;
+  text-align: center;
+  font-family: "Noto Sans SC","PayPalSansBig-Regular",Helvetica Neue,Arial,sans-serif;
+  color: #ffffff;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 60px;
+}
+
+ .maindivicon{
+   border: 0;
+   font-size: 20px;
+   color: #ffffff;
+   text-align: center;
+   margin-top: 32px;
+ }
+
+ .maindivicon img {
+   margin-top: 20px;
+   vertical-align: -18%;
+ }
+
+ /* .maindivicon span {
+   display:flexbox;
+   padding-bottom: 10px;
+ } */
+
+ #mianlargeloadbutton{
+   font-weight:500;
+   font-size: 16px;
+   border-width:0;
+   width: 280px;
+   height: 56px;
+   border-radius:calc(56px / 2);
+   color: #142c8e;
+   margin-top: 45px;
+   margin-left: 756px;
+ }
+ .mainsectionsecond {
+    background-color: #142C81;
+    height: 160px;
+}
+
+   .mainsectionsecondfirstdiv {
+      text-align: center;
+      font-weight: 700;
+      font-size: 40px;
+      height: 80px;
+      font-family: PayPalSansBig-Regular;
+      color: #ffffff;
+      padding-top: 32px;
+   }
+
+   /* .mainsectionsecondfirstdiv span{
+      margin-left: 40px;
+      margin-right: 40px;
+   } */
+    
+   #spanfirst {
+      font-size: 24px;
+      font-family: "Noto Sans SC","PayPalSansBig-Regular",Helvetica Neue,Arial,sans-serif;
+      padding-right: 100px;
+   }
+
+   #spansecond {
+      font-size: 24px;
+      font-family: "Noto Sans SC","PayPalSansBig-Regular",Helvetica Neue,Arial,sans-serif;
+      padding-right: 100px;
+   }
+
+   #spanthird {
+      font-size: 24px;
+      font-family: "Noto Sans SC","PayPalSansBig-Regular",Helvetica Neue,Arial,sans-serif;
+      padding-right: 100px;
+   }
+
+   #spanforth {
+      font-size: 24px;
+      font-family: "Noto Sans SC","PayPalSansBig-Regular",Helvetica Neue,Arial,sans-serif;
+      padding-right: 100px;
+   }
+
+   /* .spanicon {
+      margin-right: 50px;
+   } */
+
+    #spantextfirst{
+      /* margin-left: 50px; */
+      padding-left: 100px;
+   }
+
+   .mainsectionsecondseconddiv{
+      text-align: center;
+      font-family: "Noto Sans SC","PayPalSansBig-Regular",Helvetica Neue,Arial,sans-serif;
+      color:#fafafa;
+      height: 40px;
+      border: 0;
+      margin-top: -20px;
+   }
+
+   .mainsectionsecondseconddiv span {
+    margin-left: 50px;
+    margin-right: 50px;
+   }
+
+   /* #secondaryspanfirst {
+    margin-left: 0px;
+    margin-right: 60px;
+   } 
+   
+   #secondaryspansecond {
+    margin-left: 60px;
+    margin-right: 60px;
+   } 
+   
+   #secondaryspanthird {
+      margin-left: 60px;
+      margin-right: 60px;
+   }
+   
+   #secondaryspanfourth {
+      margin-left: 60px;
+      margin-right: 60px;
+   }
+
+   #secondaryspanfifth {
+      margin-left: 60px;
+      margin-right: 0px;
+   } */
+
+   .mainsectionthird p{
+    background-color: #121661;
+    height: 40px;
+    color:#ffffff;
+    font-size: 12px;
+    text-align: center;
+    padding-top: 12px;
+    font-family: "Noto Sans SC","PayPalSansBig-Regular",Helvetica Neue,Arial,sans-serif;
+   }
+

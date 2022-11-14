@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>id选择器，一一对应</title>
+    <!-- 很少为了样式去使用id选择器，一般都是为了与js绑定 -->
+    <style>
+        #size {
+        font-size: 150px;
+        }
+        .disco{
+        color: red;    
+        }
+        div .disco{
+            size: 100px;
+        }
+    </style>
+</head>
+<body>
+    <p id="size">id选择器控制的样式</p>
+    <p class="disco">这是一个类选择器生效的地方</p>
+    <div class="disco">这是一个类选择器生效的地方</div>
+</body>
+</html>

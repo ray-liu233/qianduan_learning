@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>相亲网站</title>
+    <style>
+        h1 {
+         background-image:url("./淡蓝色背景2.jpg");
+         margin: 0px;
+         text-align: center;
+        }
+        body{
+         margin: 0px 5px 0px;
+        }
+        hr{
+         margin: 1px;
+        }
+        form{
+         font-weight: bold;
+         background-image:url("./原神3.jpg");
+         background-size: cover;
+         background-color: transparent;
+         margin-top: 0px;
+         text-align: center;
+        }
+        ul{
+         list-style: none;
+         text-align: unset;
+        }
+        .reset{
+            margin-bottom: 100px;
+        }
+        footer{
+            margin-top: 0px;
+            background-image: url("./淡蓝色背景2.jpg");
+            text-align: center;
+        }
+        dl{
+            margin-top: 0px;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>青春不再有，快来相亲吧</h1>
+    <hr>
+    <form action="#">
+    昵称：<input type="text" placeholder="请输入昵称">
+    <br>
+    <br>
+    性别：<label><input type="radio" name="sex">男</label>
+         <label><input type="radio" name="sex">女</label>
+    <br>
+    <br>  
+    所在城市：  
+    <select >
+        <option>北京</option>
+        <option selected>上海</option>
+        <option>广州</option>
+    </select>
+    <br>
+    <br>
+    婚姻状况：
+    <label><input type="radio" name="marriage">未婚</label>
+    <label><input type="radio" name="marriage">已婚</label>
+    <label><input type="radio" name="marriage">保密</label>
+    <br>
+    <br>
+    喜欢的类型：
+    <input type="checkbox" name="personality">可爱
+    <input type="checkbox" name="personality">性感
+    <input type="checkbox" name="personality" checked>小鲜肉
+    <input type="checkbox" name="personality" checked>御姐
+    <input type="checkbox" name="personality">萝莉
+    <input type="checkbox" name="personality">大叔
+    <br>
+    <br>
+    个人介绍：<br>
+    <textarea cols="30" rows="10"></textarea>
+    <h3>我承诺：</h3>
+        <p>年满18岁，单身</p>
+        <p>品行优良</p>
+        <p>作风正直</p>
+     <br>
+     <input type="submit" value="快速提交">
+     <button type="reset" class="reset">重置</button>
+    </form>
+    <hr>
+    <footer>
+        <dl>
+            <dd style="font-weight: bold;">相关服务：</dd>
+            <dd>不懂请百度：<a href="https://www.baidu.com">点这里</a></dd>
+            <dd>联系人电话：110</dd>
+        </dl>
+    </footer>
+</body>
+</html>

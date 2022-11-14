@@ -1,0 +1,5 @@
+p {
+    /* 注意外部引用css时候，css文件和html文件都得加上*/
+    background-color:blue;
+    height: 10px;
+}
