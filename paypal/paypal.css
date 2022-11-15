@@ -130,7 +130,7 @@ div.header-div .head-load-button {
    color: #ffffff;
    font-weight: 700;
 }
-.main-second-section-first-block .main-second-section-first-block {
+.main-second-section-first-block .main-second-section-first-block-bottom {
    margin-top: 4px;
 }
 
@@ -155,11 +155,62 @@ div.header-div .head-load-button {
    flex-direction:column;
 }
 
+.main-second-section-second-block .second-block-first-span{
+   font-size: 40px;
+   font-family: "PayPalSansBig-Regular";
+   color: #ffffff;
+   font-weight: 700;
+}
+
+.main-second-section-second-block .second-block-second-span{
+   font-size: 24px;
+   font-family: "Noto Sans SC","PayPalSansBig-Regular",Helvetica Neue,Arial,sans-serif;;
+   color: #ffffff;
+   font-weight: 700;
+}
+
+.main-second-section-second-block .main-second-section-second-block-bottom {
+   margin-top: 4px;
+}
+
+.main-second-section-second-block .second-block-third-span{
+   font-size: 14px;
+   font-family: "Noto Sans SC","PayPalSansBig-Regular",Helvetica Neue,Arial,sans-serif;;
+   color: #ffffff;
+   font-weight: 400;
+}
+
+.main-second-section-second-block .second-block-first-sup {
+   font-size: 12px;
+   font-family: "Noto Sans SC","PayPalSansBig-Regular",Helvetica Neue,Arial,sans-serif;;
+   color: #fafafa;
+   font-weight: 400;
+}
+
+
 .main-second-section-third-block {
    flex-basis:20%;
    display:flex;
    align-items:center;
    flex-direction:column;
+}
+
+.main-second-section-third-block .third-block-first-span{
+   font-size: 40px;
+   font-family: "PayPalSansBig-Regular";
+   color: #ffffff;
+   font-weight: 700;
+}
+
+.main-second-section-third-block .third-block-second-span{
+   font-size: 14px;
+   font-family: "Noto Sans SC","PayPalSansBig-Regular",Helvetica Neue,Arial,sans-serif;;
+   color: #ffffff;
+   font-weight: 400;
+}
+
+.main-second-section-third-block .main-second-section-third-block-bottom {
+   margin-top: 6px;
 }
 
 .main-second-section-fourth-block {
@@ -169,12 +220,78 @@ div.header-div .head-load-button {
    flex-direction:column;
 }
 
+.main-second-section-fourth-block .fourth-block-first-span{
+   font-size: 40px;
+   font-family: "PayPalSansBig-Regular";
+   color: #ffffff;
+   font-weight: 700;
+}
+
+.main-second-section-fourth-block .fourth-block-second-span{
+   font-size: 24px;
+   font-family: "Noto Sans SC","PayPalSansBig-Regular",Helvetica Neue,Arial,sans-serif;;
+   color: #ffffff;
+   font-weight: 700;
+}
+
+.main-second-section-fourth-block .main-second-section-fourth-block-bottom {
+   margin-top: 4px;
+}
+
+.main-second-section-fourth-block .fourth-block-third-span{
+   font-size: 14px;
+   font-family: "Noto Sans SC","PayPalSansBig-Regular",Helvetica Neue,Arial,sans-serif;;
+   color: #ffffff;
+   font-weight: 400;
+}
+
+.main-second-section-fourth-block .fourth-block-first-sup {
+   font-size: 12px;
+   font-family: "Noto Sans SC","PayPalSansBig-Regular",Helvetica Neue,Arial,sans-serif;;
+   color: #fafafa;
+   font-weight: 400;
+}
+
 .main-second-section-fifth-block {
    flex-basis:20%;
    display:flex;
    align-items:center;
    flex-direction:column;
 }
+
+.main-second-section-fifth-block .fifth-block-first-span{
+   font-size: 40px;
+   font-family: "PayPalSansBig-Regular";
+   color: #ffffff;
+   font-weight: 700;
+}
+
+.main-second-section-fifth-block .fifth-block-second-span{
+   font-size: 24px;
+   font-family: "Noto Sans SC","PayPalSansBig-Regular",Helvetica Neue,Arial,sans-serif;;
+   color: #ffffff;
+   font-weight: 700;
+}
+
+.main-second-section-fifth-block .main-second-section-fifth-block-bottom {
+   margin-top: 4px;
+}
+
+.main-second-section-fifth-block .fifth-block-third-span{
+   font-size: 14px;
+   font-family: "Noto Sans SC","PayPalSansBig-Regular",Helvetica Neue,Arial,sans-serif;;
+   color: #ffffff;
+   font-weight: 400;
+}
+
+.main-second-section-fifth-block .fifth-block-first-sup {
+   font-size: 12px;
+   font-family: "Noto Sans SC","PayPalSansBig-Regular",Helvetica Neue,Arial,sans-serif;;
+   color: #fafafa;
+   font-weight: 400;
+}
+
+
 
 /* .main-second-section-first-div {
    text-align: center;
