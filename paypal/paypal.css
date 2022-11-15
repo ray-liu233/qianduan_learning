@@ -1,85 +1,85 @@
- @import url(font.css);
+@import url(font.css);
 
- * {
-    margin: 0;
-    padding: 0;
- }
+* {
+   margin: 0;
+   padding: 0;
+}
  
- .header-div {
+.header-div {
    height: 80px;
 }
 
- #paypalmainlogo {
+img.paypal-main-logo {
    margin-left: 306px;
    margin-top: 20px;
 }
 
-  ul.header-ul {
-  list-style: none;
-  font-family: "Noto Sans SC","PayPalSansBig-Regular",Helvetica Neue,Arial,sans-serif;
-  margin-left: 484px;
-  margin-top: -36px;
-  width: 912px;
-  height: 80px;
-  color: #515354;
-  font-size: 14px;
-  font-weight: 400;
- }
+ul.header-ul {
+   list-style: none;
+   font-family: "Noto Sans SC","PayPalSansBig-Regular",Helvetica Neue,Arial,sans-serif;
+   margin-left: 484px;
+   margin-top: -36px;
+   width: 912px;
+   height: 80px;
+   color: #515354;
+   font-size: 14px;
+   font-weight: 400;
+}
 
-   ul.header-ul li{
-    margin-top: 28px;
-    display: inline;
-    padding-right: 36px;
- }
+ul.header-ul li{
+   margin-top: 28px;
+   display: inline;
+   padding-right: 36px;
+}
 
- div.header-div .head-load-button {
-    color: #ffffff;
-    background-color: #142C81;
-    display:block;
-    border: 0;
-    font-family: "Noto Sans SC","PayPalSansBig-Regular",Helvetica Neue,Arial,sans-serif;
-    border-width:1px;
-    font-size: 14px;
-    font-weight: 500;
-    width: 104px;
-    height: 40px;
-    margin-left: 1382px;
-    margin-top: -86px;
-    border-radius:calc(40px / 2);
- }
+div.header-div .head-load-button {
+   color: #ffffff;
+   background-color: #142C81;
+   display:block;
+   border: 0;
+   font-family: "Noto Sans SC","PayPalSansBig-Regular",Helvetica Neue,Arial,sans-serif;
+   border-width:1px;
+   font-size: 14px;
+   font-weight: 500;
+   width: 104px;
+   height: 40px;
+   margin-left: 1382px;
+   margin-top: -86px;
+   border-radius:calc(40px / 2);
+}
 
- .main-section-first {
-    background-image: url("./picture/mainbackground.jpg");
-    height: 560px;
-    color: #ffffff;
-    background-size: cover;
+.main-section-first {
+   background-image: url("./picture/mainbackground.jpg");
+   height: 560px;
+   color: #ffffff;
+   background-size: cover;
 
 }
 
- .main-title-first{
-  padding-top: 142px;
-  text-align: center;
-  font-family: "Noto Sans SC","PayPalSansBig-Regular",Helvetica Neue,Arial,sans-serif;
-  color: #ffffff;
-  font-size: 40px;
-  font-weight: 700;
-  line-height: 60px;
+.main-title-first{
+   padding-top: 142px;
+   text-align: center;
+   font-family: "Noto Sans SC","PayPalSansBig-Regular",Helvetica Neue,Arial,sans-serif;
+   color: #ffffff;
+   font-size: 40px;
+   font-weight: 700;
+   line-height: 60px;
 }
 
- .main-div-icon{
+.main-div-icon{
    border: 0;
    font-size: 20px;
    color: #ffffff;
    text-align: center;
    margin-top: 32px;
- }
+}
 
- .main-div-icon img {
+.main-div-icon img {
    margin-top: 20px;
    vertical-align: -18%;
- }
+}
 
- .mian-large-login-button{
+.mian-large-login-button{
    font-weight:500;
    font-size: 16px;
    border-width:0;
@@ -89,72 +89,73 @@
    color: #142c8e;
    margin-top: 45px;
    margin-left: 756px;
- }
- .main-second-section {
-    background-color: #142C81;
-    height: 160px;
 }
 
-   .main-second-section-first-div {
-      text-align: center;
-      font-weight: 700;
-      font-size: 40px;
-      height: 80px;
-      font-family: PayPalSansBig-Regular;
-      color: #ffffff;
-      padding-top: 32px;
-   }
+.main-second-section {
+   background-color: #142C81;
+   height: 160px;
+}
+
+.main-second-section-first-div {
+   text-align: center;
+   font-weight: 700;
+   font-size: 40px;
+   height: 80px;
+   font-family: PayPalSansBig-Regular;
+   color: #ffffff;
+   padding-top: 32px;
+}
 
     
-   #span-first {
-      font-size: 24px;
-      font-family: "Noto Sans SC","PayPalSansBig-Regular",Helvetica Neue,Arial,sans-serif;
-      padding-right: 100px;
-   }
+#span-first {
+   font-size: 24px;
+   font-family: "Noto Sans SC","PayPalSansBig-Regular",Helvetica Neue,Arial,sans-serif;
+   padding-right: 100px;
+}
 
-   #span-second {
-      font-size: 24px;
-      font-family: "Noto Sans SC","PayPalSansBig-Regular",Helvetica Neue,Arial,sans-serif;
-      padding-right: 100px;
-   }
+#span-second {
+   font-size: 24px;
+   font-family: "Noto Sans SC","PayPalSansBig-Regular",Helvetica Neue,Arial,sans-serif;
+   padding-right: 100px;
+}
 
-   #span-third {
-      font-size: 24px;
-      font-family: "Noto Sans SC","PayPalSansBig-Regular",Helvetica Neue,Arial,sans-serif;
-      padding-right: 100px;
-   }
+#span-third {
+   font-size: 24px;
+   font-family: "Noto Sans SC","PayPalSansBig-Regular",Helvetica Neue,Arial,sans-serif;
+   padding-right: 100px;
+}
 
-   #span-forth {
-      font-size: 24px;
-      font-family: "Noto Sans SC","PayPalSansBig-Regular",Helvetica Neue,Arial,sans-serif;
-      padding-right: 100px;
-   }
+#span-forth {
+   font-size: 24px;
+   font-family: "Noto Sans SC","PayPalSansBig-Regular",Helvetica Neue,Arial,sans-serif;
+   padding-right: 100px;
+}
 
-    #span-text-first{
-      padding-left: 100px;
-   }
+#span-text-first{
+   padding-left: 100px;
+}
 
-   .main-second-section-second-div{
-      text-align: center;
-      font-family: "Noto Sans SC","PayPalSansBig-Regular",Helvetica Neue,Arial,sans-serif;
-      color:#fafafa;
-      height: 40px;
-      border: 0;
-      margin-top: -20px;
-   }
+.main-second-section-second-div{
+   text-align: center;
+   font-family: "Noto Sans SC","PayPalSansBig-Regular",Helvetica Neue,Arial,sans-serif;
+   color:#fafafa;
+   height: 40px;
+   border: 0;
+   margin-top: -20px;
+}
 
-   .main-second-section-second-div span {
-    margin-left: 50px;
-    margin-right: 50px;
-   }
+.main-second-section-second-div span {
+   margin-left: 50px;
+   margin-right: 50px;
+}
 
-   .mainsectionthird p{
-    background-color: #121661;
-    height: 40px;
-    color:#ffffff;
-    font-size: 12px;
-    text-align: center;
-    padding-top: 12px;
-    font-family: "Noto Sans SC","PayPalSansBig-Regular",Helvetica Neue,Arial,sans-serif;
-   }
+.main-third-section p{
+   background-color: #121661;
+   height: 40px;
+   color:#ffffff;
+   font-size: 12px;
+   text-align: center;
+   padding-top: 12px;
+   font-family: "Noto Sans SC","PayPalSansBig-Regular",Helvetica Neue,Arial,sans-serif;
+}
 
