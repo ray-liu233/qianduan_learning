@@ -90,12 +90,12 @@
    margin-top: 45px;
    margin-left: 756px;
  }
- .mainsectionsecond {
+ .main-second-section {
     background-color: #142C81;
     height: 160px;
 }
 
-   .mainsectionsecondfirstdiv {
+   .main-second-section-first-div {
       text-align: center;
       font-weight: 700;
       font-size: 40px;
@@ -105,45 +105,36 @@
       padding-top: 32px;
    }
 
-   /* .mainsectionsecondfirstdiv span{
-      margin-left: 40px;
-      margin-right: 40px;
-   } */
     
-   #spanfirst {
+   #span-first {
       font-size: 24px;
       font-family: "Noto Sans SC","PayPalSansBig-Regular",Helvetica Neue,Arial,sans-serif;
       padding-right: 100px;
    }
 
-   #spansecond {
+   #span-second {
       font-size: 24px;
       font-family: "Noto Sans SC","PayPalSansBig-Regular",Helvetica Neue,Arial,sans-serif;
       padding-right: 100px;
    }
 
-   #spanthird {
+   #span-third {
       font-size: 24px;
       font-family: "Noto Sans SC","PayPalSansBig-Regular",Helvetica Neue,Arial,sans-serif;
       padding-right: 100px;
    }
 
-   #spanforth {
+   #span-forth {
       font-size: 24px;
       font-family: "Noto Sans SC","PayPalSansBig-Regular",Helvetica Neue,Arial,sans-serif;
       padding-right: 100px;
    }
 
-   /* .spanicon {
-      margin-right: 50px;
-   } */
-
-    #spantextfirst{
-      /* margin-left: 50px; */
+    #span-text-first{
       padding-left: 100px;
    }
 
-   .mainsectionsecondseconddiv{
+   .main-second-section-second-div{
       text-align: center;
       font-family: "Noto Sans SC","PayPalSansBig-Regular",Helvetica Neue,Arial,sans-serif;
       color:#fafafa;
@@ -152,35 +143,10 @@
       margin-top: -20px;
    }
 
-   .mainsectionsecondseconddiv span {
+   .main-second-section-second-div span {
     margin-left: 50px;
     margin-right: 50px;
    }
-
-   /* #secondaryspanfirst {
-    margin-left: 0px;
-    margin-right: 60px;
-   } 
-   
-   #secondaryspansecond {
-    margin-left: 60px;
-    margin-right: 60px;
-   } 
-   
-   #secondaryspanthird {
-      margin-left: 60px;
-      margin-right: 60px;
-   }
-   
-   #secondaryspanfourth {
-      margin-left: 60px;
-      margin-right: 60px;
-   }
-
-   #secondaryspanfifth {
-      margin-left: 60px;
-      margin-right: 0px;
-   } */
 
    .mainsectionthird p{
     background-color: #121661;
