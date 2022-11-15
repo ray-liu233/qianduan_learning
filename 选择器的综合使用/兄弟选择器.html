@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>兄弟选择器</title>
+    <style>
+    /* 相邻兄弟选择器，只对自己紧跟的兄弟标签起作用，样式对自己不生效 */
+    /* .first-paragraph+div {
+     font-style: italic;
+     font-size: 90px;
+    } */
+ 
+    /* 通用兄弟选择器，对自己的所有兄弟标签都会起作用，样式对自己不生效
+    注意符号一定要用英文的~符号，不然会不生效
+    修改之后记得保存文件，再打开浏览器 */
+    .first-paragraph~div {
+    font-style: italic;
+    font-size: 90px;
+    }
+    </style>
+</head>
+<body>
+    <p class="first-paragraph">aaaaa</p>
+    <div>bbbbbbb</div>
+    <section>cccccccc</section>
+    <div>ddddddddd</div>
+    <div>eeeeeeeeeeee</div>
+</body>
+</html>
