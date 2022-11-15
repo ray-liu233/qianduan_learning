@@ -93,10 +93,90 @@ div.header-div .head-load-button {
 
 .main-second-section {
    background-color: #142C81;
-   height: 160px;
+   padding-left: 40px;
+   padding-right: 40px;
+   height: 140px;
 }
 
-.main-second-section-first-div {
+.main-second-section-div {
+   padding-left: 10px;
+   padding-right: 10px;
+   margin-left: 256px;
+   margin-right: 256px;
+}
+
+.main-second-section-div-inner {
+  padding-top: 32px;
+  display: flex;
+}
+
+.main-second-section-first-block {
+   flex-basis:20%;
+   display:flex;
+   align-items:center;
+   flex-direction:column;
+}
+
+.main-second-section-first-block .first-block-first-span{
+   font-size: 40px;
+   font-family: "PayPalSansBig-Regular";
+   color: #ffffff;
+   font-weight: 700;
+}
+
+.main-second-section-first-block .first-block-second-span{
+   font-size: 24px;
+   font-family: "Noto Sans SC","PayPalSansBig-Regular",Helvetica Neue,Arial,sans-serif;;
+   color: #ffffff;
+   font-weight: 700;
+}
+.main-second-section-first-block .main-second-section-first-block {
+   margin-top: 4px;
+}
+
+.main-second-section-first-block .first-block-third-span{
+   font-size: 14px;
+   font-family: "Noto Sans SC","PayPalSansBig-Regular",Helvetica Neue,Arial,sans-serif;;
+   color: #ffffff;
+   font-weight: 400;
+}
+
+.main-second-section-first-block .first-block-first-sup {
+   font-size: 12px;
+   font-family: "Noto Sans SC","PayPalSansBig-Regular",Helvetica Neue,Arial,sans-serif;;
+   color: #fafafa;
+   font-weight: 400;
+}
+
+.main-second-section-second-block {
+   flex-basis:20%;
+   display:flex;
+   align-items:center;
+   flex-direction:column;
+}
+
+.main-second-section-third-block {
+   flex-basis:20%;
+   display:flex;
+   align-items:center;
+   flex-direction:column;
+}
+
+.main-second-section-fourth-block {
+   flex-basis:20%;
+   display:flex;
+   align-items:center;
+   flex-direction:column;
+}
+
+.main-second-section-fifth-block {
+   flex-basis:20%;
+   display:flex;
+   align-items:center;
+   flex-direction:column;
+}
+
+/* .main-second-section-first-div {
    text-align: center;
    font-weight: 700;
    font-size: 40px;
@@ -147,7 +227,7 @@ div.header-div .head-load-button {
 .main-second-section-second-div span {
    margin-left: 50px;
    margin-right: 50px;
-}
+} */
 
 .main-third-section p{
    background-color: #121661;
