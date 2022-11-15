@@ -14,7 +14,7 @@
    margin-top: 20px;
 }
 
- #headerul {
+  ul.header-ul {
   list-style: none;
   font-family: "Noto Sans SC","PayPalSansBig-Regular",Helvetica Neue,Arial,sans-serif;
   margin-left: 484px;
@@ -26,7 +26,7 @@
   font-weight: 400;
  }
 
- #headerul li{
+   ul.header-ul li{
     margin-top: 28px;
     display: inline;
     padding-right: 36px;
