@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>并集和交集选择器</title>
+    <style>
+        /* 并集选择器 */
+        /* p,
+        div,
+        h3,
+        span{
+            color: blue;
+        } */
+        /* body {
+        color: blue;
+        } */
+        /* 作用范围越小的选择器会替代作用越大的选择器 */
+        /* 这是个后代选择器 */
+        body p{
+         font-style: italic;
+        }
+        /* 这是个交集选择器 */
+        p.text-mmm {
+            font-style:normal;
+            font-size: 100px;
+        }
+    </style>
+</head>
+<body>
+  <p class="box">pppp</p>
+  <div>
+    <p class="text-mmm">mmmmm</p>
+  </div>
+   <p>kkkkkk</p>
+  <h3 class="box">hhh</h3>
+  <span>ssss</span>
+</body>
+</html>

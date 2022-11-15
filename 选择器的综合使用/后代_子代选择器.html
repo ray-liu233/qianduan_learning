@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>子后代选择器的使用</title>
+    <style>
+        /* 后代选择器，包括儿子，孙子，重孙子 */
+     div p {
+     color: aquamarine;
+     }
+       /* 子代选择器，包括只包括自己的第一个儿子 */
+    body>div>p {
+        font-size: 100px;
+     }
+    </style>
+</head>
+<body>
+    <div>
+        <p>这是第一段文字</p>
+        <div>
+            <p>这是第二段文字</p>
+        </div>
+    </div>
+</body>
+</html>
