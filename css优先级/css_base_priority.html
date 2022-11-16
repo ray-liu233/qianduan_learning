@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css优先级基础</title>
+    <!-- 优先级是为了解决样式冲突的 -->
+    <!-- 继承 <通配符 <标签 <类选择器 <id选择器 <!important ,，但是在inherit标签中的属性不能使用!important-->
+        <style>
+
+            .text {
+                color:lightgreen;
+            }
+
+            p {
+                color: darkorange;
+            }
+
+            body {
+                color: brown;
+            }
+
+            * {
+                color: blueviolet !important;
+                /* 加了!important直接优先级变得最高 */
+            }
+
+        </style>
+</head>
+<body>
+        <p class="text" id="unique" style="color: black;">aaaaaaaaa</p>
+</body>
+</html>

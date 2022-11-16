@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>js变量</title>
+    <!-- css和html中使用"" ,但是在js中使用''-->
+    <script>
+        // 这是js注释
+        var age='100';
+        // 下面为浏览器控制台输出
+        console.log(age);
+        // 下面为浏览器界面弹出警告框
+        alert(age);
+        // 这是界面的输入框：
+        prompt('请输入你的年龄：');
+        age=50;
+        console.log(age);
+        var a=1,b=2,c=3;
+        console.log('12');
+
+        // 数字类型(8进制前面加0，十六进制前面加0x)默认值是10进制
+        var a=011;
+        console.log(a)
+        var b=0x10;
+        console.log(b)
+        // 下面这行代码就是输出的NAN
+        console.log('快乐'-100);
+        console.log(Number.MAX_VALUE);
+        console.log(Number.MIN_VALUE);
+        console.log(Number.MAX_VALUE*2);
+        console.log(Number.MIN_VALUE*2);
+
+        // isNAN()返回true或者false
+        console.log(isNaN(12))
+        console.log(isNaN('12'))
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
