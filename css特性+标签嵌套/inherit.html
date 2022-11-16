@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>继承性</title>
+    <style>
+        /* div默认继承body，但是p标签优先级比body高，所以没有被层叠 */
+        /* a标签默认颜色是蓝色，自己有color，不继承上级，h标签有size，也不会继承上级 */
+        p {
+            font-size: 10px;
+        }
+
+        body {
+            font-size: 100px;
+            color: aquamarine;
+        }
+    </style>
+</head>
+<body>
+    <div>aaaaaa</div>
+    <p>dddddddd</p>
+    <h1>ccccccc</h1>
+    <a href="https://www.baidu.com">百度</a>
+</body>
+</html>

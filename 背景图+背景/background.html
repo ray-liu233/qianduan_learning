@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>背景图设计</title>
+    <!-- 背景色+背景图+背景是否平铺+背景位置，所有这些都是受限于div盒子 -->
+    <style>
+    div {
+     width: 1000px;
+     height: 1000px;
+     /* background-color: rgb(256, 123, 22, 0.5);
+     background-image: url("../picture1/超级玛丽.jpeg");
+     background-repeat: no-repeat;
+     /* css里面的具体值必须给px，不然不生效 x,y
+     轴正方向一个向右，一个向下*/
+     /* background-position: 300px -50px; */ 
+
+     /* background是个复合属性，顺序一般按照：color bgi bgr gbp来进行 */
+     /* background: #aaa url("../picture2/哈尔的移动城堡.jpeg") no-repeat center top; */
+     /* background: #aaa url("../picture2/哈尔的移动城堡.jpeg") no-repeat  top  center;
+     如果是用英文名来代替position的话，顺序可以颠倒，效果不变
+     如果是用具体数值像素来代替position的话，顺序不可以颠倒，因为效果会变*/
+     
+     /* background: #aaa url("../picture2/哈尔的移动城堡.jpeg") no-repeat  20px 150px; */
+     background: #aaa url("../picture2/哈尔的移动城堡.jpeg") no-repeat  150px 20px;
+    }
+    </style>
+</head>
+<body>
+    <div>文字</div>
+</body>
+</html>

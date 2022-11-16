@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>多属性值选择器</title>
+    <!-- 后面的样式层叠前面的样式 -->
+    <style>
+        .red {
+            color: blue;
+        }
+
+        .green {
+            color: yellow;
+        }
+        /* 属性名和值的选择器 */
+        [class~="red"] {
+            background-color: aquamarine;
+        }
+    </style>
+</head>
+<body>
+    <!-- 多class名选择器，空格隔开 -->
+    <p class="red green">aaaaa</p>
+    <div class="green">bbbbb</div>
+</body>
+</html>
